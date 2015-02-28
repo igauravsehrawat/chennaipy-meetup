@@ -18,15 +18,15 @@ def hsbcForeign():
 
     laterToCSV = []
     period = ["2 Wk","3 Wk","1 Mth","2 Mth","3 Mth","6 Mth","9 Mth","12 Mth"]
-    currency = ["AUD", "CAD", "CHF", "CNY", "EUR", "GBP", "HKD", "JPY", "NZD", "USD"]
-    Product_name = ["HSBC ","HSBC Advance ","HSBC Premier "]
+    currency = ["AUD"]
+    Product_name = ["HSBC "]
     for cur_code in currency:
         data = {
                 "curcode":  cur_code}
         r = requests.post("http://www.datafeeds.hsbc.com.sg/sg/unitrust/foreign_currency_time_deposit_rates.jsp", data=data , headers= req_headers)
         table_gbp = html.fromstring(r.text)
         all_table = table_gbp.xpath("//table[@width='96%']")
-        for tbl_itr in xrange(0,3):
+        for tbl_itr in xrange(0,1):
             relevant_table = all_table[tbl_itr]
             all_tr = relevant_table.findall('tr')
             for tr_itr in xrange(2,len(all_tr)):
