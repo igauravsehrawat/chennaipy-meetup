@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>chennaipy-meetup</title><link href="http://igauravsehrawat.github.io/chennaipy-meetup/" rel="alternate"></link><link href="http://igauravsehrawat.github.io/chennaipy-meetup/feeds/python.atom.xml" rel="self"></link><id>http://igauravsehrawat.github.io/chennaipy-meetup/</id><updated>2014-12-20T00:00:00+01:00</updated><entry><title>ChennaiPy December Meetup</title><link href="http://igauravsehrawat.github.io/chennaipy-meetup/chennaipy-dec-meetup.html" rel="alternate"></link><updated>2014-12-20T00:00:00+01:00</updated><author><name>Gaurav Sehrawat</name></author><id>tag:igauravsehrawat.github.io,2014-12-19:chennaipy-meetup/chennaipy-dec-meetup.html</id><summary type="html">&lt;p&gt;Every Month a meetup is conducted by python community. This december is scheduled on 20th December 2014.&lt;/p&gt;
+&lt;h2&gt;Schedule&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lightning Talks (40 min)&lt;/li&gt;
+&lt;li&gt;Networking over Tea sponsored by Kagrana Software (20 min)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lightning Talks (40 min)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Discussions (20 min)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Talk Details&lt;/h2&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
